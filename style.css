@@ -16,7 +16,6 @@ body {
     rgba(250, 235, 215, 0.233),
     #f1642233
   );
-  height: 10000px;
 }
 .barele {
   color: #f16322;
@@ -113,7 +112,7 @@ body {
 }
 
 .nextpage {
-  margin-top: 200px;
+  margin-top: 300px;
   #aboutme {
     display: flex;
     justify-content: center;
@@ -123,24 +122,25 @@ body {
 
 #aboutmyself {
   display: flex;
-  margin: 40px;
+  margin: 20px;
   justify-content: space-between;
   padding: 20px;
-}
-
-#me2 {
-  width: 700px;
+  background-color: antiquewhite;
   border-radius: 20px;
 }
 
+#me2 {
+  width: 600px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
 #subtle {
-  padding-left: 40px;
+  padding: 30px;
 }
-#subtle1 {
-  padding-top: 20px;
-}
+
 #subtle2 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 #persona {
   display: flex;
@@ -149,11 +149,9 @@ body {
 }
 #personal {
   display: flex;
-  margin-left: 50px;
+  justify-content: center;
   font-size: 35px;
-  border-radius: 20px;
   padding: 20px;
   background-color: #f164223f;
   margin: 0px;
-  width: fit-content;
 }
