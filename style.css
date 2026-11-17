@@ -155,3 +155,40 @@ body {
   background-color: #f164223f;
   margin: 0px;
 }
+
+.footer {
+  display: flex;
+  width: fit-content;
+  background-color: rgba(170, 170, 170, 0.342);
+  border-radius: 20px;
+  padding: 50px;
+  margin-left: 40%;
+}
+#contact {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  #footerhead {
+    font-size: 35px;
+    margin: 0;
+  }
+  #names {
+    padding: 20px;
+  }
+}
+#button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  button {
+    height: 70px;
+    background-color: #f16322;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+  }
+}
