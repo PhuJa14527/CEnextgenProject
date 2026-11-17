@@ -5,3 +5,15 @@ body {
     #f1642233
   );
 }
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+}
+#scam {
+  font-size: 70px;
+  display: flex;
+  justify-content: space-around;
+}
